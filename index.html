@@ -1,5 +1,5 @@
 <!DOCTYPE html> <!--Se for uma versão de HTML anterior vai estar especificado-->
-<html>
+<html lang="pt-BR">
 
 
     <head>
@@ -9,16 +9,32 @@
 
     <!-- Prorpiedade de tags para mecanismos de pesquisas fazem diferença -->
     <body>
+        <div>
+            
+            <a href="#lista"> Lista </a>
+            <a href="#paulo"> Paulo Guina </a>
+            <a href="#gandalf"> Gandalf de skate </a>
+  
+        </div>
+        <div id="paulo">
+            <h1> <i> Paulo guina e gandalf </i> </h1> <!-- tag (i) = italico-->
 
-        <h1> <i> Um título 1 </i> </h1> <!-- tag (i) = italico-->
+            <img alt="paulo guina" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSu-oHETYj79LAZcdEKb-wdDG6Yg3hcgQBHfgTJrbwJjg&s" width="400px" /> <!-- tag (img) inserir uma imagem apartir de um link na internet ou no proprio arquivo -->
 
-        <img alt="paulo guina" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSu-oHETYj79LAZcdEKb-wdDG6Yg3hcgQBHfgTJrbwJjg&s"/> <!-- tag (img) inserir uma imagem apartir de um link na internet ou no proprio arquivo -->
+            <h2> Quem é Paulo guina </h2>
+            
+            <p> Um mano top. </p> <br>
+        </div>
+        <div id="gandalf">
+            <figure> <!-- tag (figure) diz pro navegador que a imagem e o texto/parágrafo estão juntos -->
+            <img alt="Foto do gandalf de skate" src="/imagem/IMG_5437.jpg" width="300px" /> <!-- tag (alt) texto alternativo dentro da imagem -->
+            <figcaption> Foto do gandalf de skate </figcaption> <!-- tag (figcaption) legenda da figura -->
+            </figure>
+            <h2> Por que gandaf ? </h2>
 
-        <figure> <!-- tag (figure) diz pro navegador que a imagem e o texto/parágrafo estão juntos -->
-        <img alt="Foto do gandalf de skate" src="/imagem/IMG_5437.jpg" width="200px" /> <!-- tag (alt) texto alternativo dentro da imagem -->
-        <figcaption> Foto do gandalf de skate </figcaption> <!-- tag (figcaption) legenda da figura -->
-        </figure>
-
+            <p> Quantas vezes você ja viu um mago de skate na vida ? </p>
+        </div>
+        <br><br>
         <h2> <strong> Um título 2 </strong>  </h2> <!-- tag (strong) = Sinalizando pro mecanismo um destaque a mais -->
 
         <h3><em> Um título 3</em></h3> <!-- tag (em) = mesmas propriedades do (i) porém mais enfatizado para o navegador -->
@@ -41,6 +57,23 @@
 
         <a href="/pagina 1.html"> Pagina 1</a> <!--tag (a) cria links--> <br>
         <a href="/pagina 2.html"> Pagina 2</a>
+        <div id="lista">
+            <ul >
+                <li> <b> Arroz: </b> Da Silva <br> <b> Número: </b> <a href="https://wa.me/554899850412" target="_blank">+554899850412</a>  </li>
+                
+                <br>
+                <li> <b> Feijão Site: </b> Site bolado <br><b> Site: </b> <a href="" target="_blank"> www.feijãobolado.com.br </a>   </li>
+                <br>
+                <li> <b> Email do feijão: </b> Email bolado  <br> <b> Email: </b> <a href="mailto:feijaobolado@gmail.com" target="_blank">feijaobolado@gmail.com</a> </li>
+                <br>
+                <li> <b> Instagram do feijão: </b> Instagram bolado  <br> <b> Instagram: </b> <a href="instagram://user?username=progbr">@feijão</a> </li>
+            </ul>
+        </div>
+        
+
+
+
+       
 
     </body>
 </html>
